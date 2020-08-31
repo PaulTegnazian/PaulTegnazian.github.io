@@ -13,7 +13,7 @@ module.exports =
   [
     'gatsby-transformer-remark',
     'gatsby-plugin-emotion',
-    'gatsby-plugin-react-helmet',
+    // 'gatsby-plugin-react-helmet', not found in node_modules
     {
       resolve: 'gatsby-plugin-typography',
       options:
