@@ -18,5 +18,7 @@
         "react"
     ],
     "rules": {
+        "avoidEscape": true,
+        "allowTemplateliterals": true
     }
 }
