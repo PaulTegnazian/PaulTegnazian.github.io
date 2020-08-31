@@ -4,8 +4,11 @@
  */
 
 module.exports = {
-  pathPrefix: '/PaulTegnazian.github.io',
+  siteMetadata: {
+    title: 'I am Paul Tegnazian'
+  },
   plugins: [
+    'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
