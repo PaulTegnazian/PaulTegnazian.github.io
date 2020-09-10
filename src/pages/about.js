@@ -8,7 +8,7 @@ export default function About ({ data }) {
     <Layout>
       <h1>About {data.site.siteMetadata.title}</h1>
       <p>
-        We're the only site running on your computer dedicated to you.
+        I'm a licensed professional engineer with a civil engineering background. Learning to build a website by programming it myself.
       </p>
     </Layout>
   )
