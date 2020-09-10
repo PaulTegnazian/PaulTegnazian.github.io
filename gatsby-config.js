@@ -34,7 +34,7 @@ module.exports =
       {
         name: `Paul Tegnazian`,
         short_name: `Paul Tegnazian`,
-        start_url: `/`,
+        start_url: `/paultegnazian.com`,
         background_color: `#5e565e`,
         theme_color: `#5e565e`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
