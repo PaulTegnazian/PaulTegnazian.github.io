@@ -24,9 +24,9 @@
     "gatsby-plugin-offline": "^3.2.27",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-typography": "^2.5.10",
-    "gatsby-source-filesystem": "^2.3.27",
+    "gatsby-source-filesystem": "^2.3.29",
     "gatsby-transformer-json": "^2.4.11",
-    "gatsby-transformer-remark": "^2.8.31",
+    "gatsby-transformer-remark": "^2.8.34",
     "react": "^16.12.0",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/paultegnazian/paultegnazian.github.io/tree/source"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
