@@ -1,20 +1,11 @@
-<Layout>
-      <Header headerText="Hello,  My Name is Paul Tegnazian" />
-      <p>
-        This is my first website using Gatsby. Please excuse the appearance as the page is under construction.
-      </p>
-      <p>
-        A cleaner version can be found&nbsp;
-        <a
-          href="https://www.notion.so/paultegnazian/Paul-Tegnazian-s-Musings-af2ee005be83467b80ef192ecbcc4674"
-        >here
-        </a>, on my Notion.so site.
-      </p>
-      <p>
-        Learn&nbsp;
-        <a
-          href="https://www.notion.so/paultegnazian/About-Paul-Tegnazian-f707ac725ac64f1e88b622547b0012e6"
-        >About Me
-        </a>.
-      </p>
-    </Layout>
+---
+title: "Paul Tegnazian Homepage"
+date: "2020-09-14"
+---
+## Hello,  My Name is Paul Tegnazian
+
+This is my first website using Gatsby. Please excuse the appearance as the page is under construction.
+
+A cleaner version can be found [here](https://www.notion.so/paultegnazian/Paul-Tegnazian-s-Musings-af2ee005be83467b80ef192ecbcc4674) on my Notion.so site.
+
+Learn [about me](https://www.notion.so/paultegnazian/About-Paul-Tegnazian-f707ac725ac64f1e88b622547b0012e6)
