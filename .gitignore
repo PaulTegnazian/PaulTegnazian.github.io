@@ -2,8 +2,10 @@ node_modules
 .cache
 public
 .DS_Store
+/src/tutorials
 
-# environment
+# env
 .travis.yml
+
 # linter setup
 .eslintrc.json
