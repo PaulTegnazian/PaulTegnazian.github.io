@@ -12,7 +12,10 @@ module.exports =
     author: 'Paul Tegnazian',
   },
   plugins:
-  [
+  [  
+    'gatsby-plugin-react-helmet',
+    'gatsby-transformer-remark',
+    'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-typography',
       options:
@@ -43,9 +46,6 @@ module.exports =
         icon: `static/icon.svg`, // This path is relative to the root of the site.
       },
     },
-    'gatsby-transformer-remark',
-    'gatsby-plugin-emotion',
     'gatsby-plugin-offline',
-    'gatsby-plugin-react-helmet',
   ]
 }
