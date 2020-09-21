@@ -19,13 +19,12 @@ export default function Layout ({ children }) {
       }
     `
   )
-
   return (
     <div
       css={css`
         margin: 0 auto;
-        max-width: 700px;
-        padding: ${rhythm(2)};
+        max-width: 800px;
+        padding: ${rhythm(0)};
         padding-top: ${rhythm(1.5)};
       `}
     >
@@ -33,12 +32,24 @@ export default function Layout ({ children }) {
         <h3
           css={css`
             margin-bottom: ${rhythm(2)};
-            display: inline-block;
+            display: inline;
             font-style: normal;
           `}
+        //   css={css`
+        //   margin-bottom: ${rhythm(-1)};
+        //   font-style: normal;
+        // `}
         >
           {data.site.siteMetadata.title}
         </h3>
+      </Link>
+      <Link
+        to={'/contact/'}
+        css={css`
+          float: right;
+        `}
+      >
+        Contact
       </Link>
       <Link
         to={'/about/'}
@@ -48,6 +59,15 @@ export default function Layout ({ children }) {
       >
         About
       </Link>
+      <Link
+        to={'/blog/'}
+        css={css`
+          float: right;
+        `}
+      >
+        Blog
+      </Link>
+
       {children}
     </div>
   )
