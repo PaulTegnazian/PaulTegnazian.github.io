@@ -1,7 +1,9 @@
 ---
-slug: "/"
-date: "2020-09-28"
-title: "paul-tegnazian-home"
+slug: "/blog/template"
+title: "Template"
+date: "YYYY-MM-DD"
 author: "Paul Tegnazian"
-description: "Homepage"
+description: "blog template"
 ---
+
+Template to copy for new blog posts

@@ -1,12 +1,12 @@
 ---
-slug: "/"
+slug: "/blog/first-post-test"
+title: "First Post Test"
 date: "2020-09-28"
-title: "Paul Tegnazian's Homepage"
 author: "Paul Tegnazian"
-description: "Index"
+description: Testing
 ---
 
-## Hello, My Name is Paul Tegnazian
+# Hello, My Name is Paul Tegnazian
 
 This is my first website, using Gatsby. Please excuse the appearance as the page is under construction.
 

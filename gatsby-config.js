@@ -8,16 +8,18 @@ module.exports =
   siteMetadata: 
   {
     title: 'Paul Tegnazian',
-    description: 'A civil engineer blogging about the journey',
+    description: 'The blog of Paul Tegnazian, a civil engineer',
     author: 'Paul Tegnazian',
   },
   plugins:
   [  
     'gatsby-plugin-react-helmet',
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [] //remarkplugins to add
-      }
+    'gatsby-transformer-remark',
+      // resolve: "gatsby-transformer-remark",
+      // options:
+      // {
+      //   plugins: [] //remarkplugins to add
+      // },
     'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-typography',
@@ -40,14 +42,6 @@ module.exports =
       {
         name: `posts`,
         path: `${__dirname}/src/posts`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`, //images
-      options: 
-      {
-        name: `images`,
-        path: `${__dirname}/src/images`,
       },
     },
     {

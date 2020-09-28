@@ -1,31 +1,37 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/layout'
 
-export default function BlogPost({ data }) {
-  const post = data.markdownRemark
+export default function blogTemplate({
+  data, // this prop will be injected by the GraphQL query below.
+}) {
+  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
-      <div>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="blog-post-container">
+        <div className="blog-post">
+          <h1>{frontmatter.title}</h1>
+          <p>Published: {frontmatter.date}</p>
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
       </div>
     </Layout>
   )
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
   query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "YYYY-MM-DD")
+        date
         slug
         title
       }
-      excerpt
     }
   }
 `
