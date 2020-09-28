@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import BlogLink from "../components/blog-link"
-import Layout from '../components/layout'
+import Header from '../components/header'
 
 const BlogPosts = ({
   data: {
@@ -12,11 +12,11 @@ const BlogPosts = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <BlogLink key={edge.node.id} post={edge.node} />)
   return (
-  <Layout>
+  <Header>
     <div>
       {posts}
     </div>
-  </Layout>
+  </Header>
   )
 }
 

@@ -1,15 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import Header from '../components/header'
 
 export default function Contact ({ data }) {
   return (
-    <Layout>
+    <Header>
       <h1>Contact {data.site.siteMetadata.title}</h1>
       <p>
         Reach out to me at tegnazianpaul@gmail.
       </p>
-    </Layout>
+    </Header>
   )
 }
 

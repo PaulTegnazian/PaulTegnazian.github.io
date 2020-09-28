@@ -5,8 +5,8 @@ import '../global.css'
 
 export default function Home () {
   return (
-    <Layout>
-      <Header headerText="Hello,  My Name is Paul Tegnazian" />
+    <Header>
+      <h1>"Hello,  My Name is Paul Tegnazian"</h1>
       <p>
         This is my first website using Gatsby. Please excuse the appearance as the page is under construction.
       </p>
@@ -24,6 +24,6 @@ export default function Home () {
         >About Me
         </a>.
       </p>
-    </Layout>
+    </Header>
   )
 }
