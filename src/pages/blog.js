@@ -30,9 +30,11 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date
+            author
             slug
             title
+            date
+            description
           }
         }
       }

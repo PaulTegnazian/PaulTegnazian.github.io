@@ -16,8 +16,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
-  
-
   const result = await graphql(`
     {
       allMarkdownRemark(

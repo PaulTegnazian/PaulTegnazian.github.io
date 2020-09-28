@@ -1,8 +1,8 @@
 ---
+author: "Paul Tegnazian"
 slug: "/blog/template"
 title: "Template"
 date: "YYYY-MM-DD"
-author: "Paul Tegnazian"
 description: "blog template"
 ---
 

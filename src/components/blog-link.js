@@ -7,7 +7,8 @@ const BlogLink = ({ post }) => (
       {post.frontmatter.title} 
     </Link>
     <p>Published: {post.frontmatter.date}</p>
-    <p>{post.frontmatter.description}</p> 
+    <p>{post.frontmatter.description}</p>
+    <p>{post.excerpt}</p> 
   </div>
 )
 
