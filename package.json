@@ -1,7 +1,7 @@
 {
   "name": "paul-tegnazian-website",
   "private": true,
-  "description": "package for building website",
+  "description": "Paul Tegnazian Blogsite",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -52,6 +52,6 @@
     "url": "https://github.com/paultegnazian/paultegnazian.github.io/tree/source"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/paultegnazian/paultegnazian.github.io/issues"
   }
 }
