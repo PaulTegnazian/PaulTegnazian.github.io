@@ -15,11 +15,7 @@ module.exports =
   [  
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
-      // resolve: "gatsby-transformer-remark",
-      // options:
-      // {
-      //   plugins: [] //remarkplugins to add
-      // },
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-typography',

@@ -6,6 +6,8 @@ import {
   graphql
 } from 'gatsby'
 import { rhythm } from '../utils/typography'
+import styled from "styled-components"
+import logo from "../../static/icon.svg"
 
 export default function Header ({ children }) {
   const data = useStaticQuery(
@@ -20,26 +22,31 @@ export default function Header ({ children }) {
       }
     `
   )
-  return (
-    <div
-      css={css`
-        margin: 0 auto;
-        max-width: 800px;
-        padding: ${rhythm(0)};
-        padding-top: ${rhythm(1.5)};
-      `}
-    >
-      <Link to={'/'}>
-        <h3
-          css={css`
-            margin-bottom: ${rhythm(2)};
-            display: inline;
-            font-style: normal;
-          `}
-        >
-          {data.site.siteMetadata.title} 
-        </h3>
+  const Container = styled.div`
+    margin: 0rem auto;
+    max-width: 800px;
+    padding: ${rhythm(-2)};
+    padding-top: ${rhythm(1.5)};
+  `
+  const Logo = styled.img`
+  `
+  const LinkToIndex = props => (
+    <>
+      <Link to='/'>
+        <Logo 
+          src={logo}
+          style={{
+            margin: 0,
+            height: 36
+          }}
+        />
+        {/* <Logo src={props.logo} alt={data.site.siteMetadata.title} /> */}
       </Link>
+    </>
+)
+  return (
+    <Container>
+      <LinkToIndex/>
       <Link
         to={'/contact/'}
         css={css`
@@ -66,6 +73,6 @@ export default function Header ({ children }) {
       </Link>
 
       {children}
-    </div>
+    </Container>
   )
 }
