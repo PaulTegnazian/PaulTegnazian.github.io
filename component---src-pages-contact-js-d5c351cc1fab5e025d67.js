@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"Cuy+":function(t,n,a){"use strict";a.r(n),a.d(n,"default",(function(){return c})),a.d(n,"query",(function(){return i}));a("q1tI");var e=a("Bl7J"),u=a("qKvR");function c(t){var n=t.data;return Object(u.b)(e.a,null,Object(u.b)("h1",null,"Contact ",n.site.siteMetadata.title),Object(u.b)("p",null,"Reach out to me at tegnazianpaul@gmail."))}var i="3159585216"}}]);
-//# sourceMappingURL=component---src-pages-contact-js-d5c351cc1fab5e025d67.js.map
