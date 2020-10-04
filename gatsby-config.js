@@ -17,6 +17,7 @@ module.exports =
     'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-emotion',
+    'gatsby-plugin-theme-ui',
     {
       resolve: 'gatsby-plugin-typography',
       options:
