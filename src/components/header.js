@@ -27,6 +27,7 @@ export default function Header ({ children }) {
     max-width: 800px;
     padding: ${rhythm(-2)};
     padding-top: ${rhythm(1.5)};
+    background: #303437;
   `
   const Logo = styled.img`
   `

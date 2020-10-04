@@ -3,8 +3,8 @@ export default theme-test = {
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
     colors: {
       text: "#333",
-      background: "#fff",
-      primary: "#639",
+      background: "#303437",
+      primary: "#303437",
       secondary: "#ff6347",
       accent: "#xxxxx",
       highlight: "#",
